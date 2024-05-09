@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "config.h": "c",
+        "ac1003_uart.h": "c",
+        "ac1003_gpio.h": "c",
+        "ac1003.h": "c",
+        "test_i2c_master.h": "c",
+        "ac1003_conf.h": "c"
+    }
+}

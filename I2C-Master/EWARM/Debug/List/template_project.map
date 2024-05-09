@@ -1,0 +1,821 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  17/Nov/2023  16:05:46
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Exe\template_project.out
+#    Map file     =
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\List\template_project.map
+#    Command line =
+#        -f
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Exe\template_project.out.rsp
+#        (C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_adc.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_advtim.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_awk.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_beeper.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_clktrim.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_crc.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_debug.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_delay.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_exti.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_flash.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_gpio.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_i2c.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_it.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_iwdt.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_lptimer.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_lpuart.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_lvd.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_owire.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_pca.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_rcc.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_rtc.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_spi.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_syscon.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_timer.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_uart.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_vc.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\ac1003_wwdt.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\config.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\kalman.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\main.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\mgpio.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB\misc.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\sf.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\CONFIG\sh367309.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\DEVICE\startup_ac1003.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\DEVICE\system_ac1003.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\test_adc.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\test_basetime.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\test_exti.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\test_flash.o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\test_i2c_master.o
+#        "C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\test_iwdt
+#        .o"
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER\test_uart.o
+#        --no_out_extension -o
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Exe\template_project.out
+#        --map
+#        C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\List\template_project.map
+#        --config C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Demo.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0xffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'0fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            ro code          0x0    0xc0  startup_ac1003.o [2]
+                                   - 0xc0    0xc0
+
+"P1":                                      0x6ac4
+  .text              ro code         0xc0  0x22f8  sh367309.o [1]
+  .text              ro code       0x23b8   0x230  test_adc.o [4]
+  .text              ro code       0x25e8    0xe0  I32DivModFast.o [7]
+  .text              ro code       0x26c8    0x36  IxxToFlt.o [6]
+  .text              ro code       0x26fe    0x3e  packbits_init_single.o [7]
+  .text              ro code       0x273c    0x3a  FltToS32.o [6]
+  .rodata            const         0x2776     0x2  xlocale_c.o [5]
+  .text              ro code       0x2778    0x28  printf.o [5]
+  .text              ro code       0x27a0    0x4e  ABImemset.o [7]
+  .text              ro code       0x27ee     0x2  startup_ac1003.o [2]
+  .text              ro code       0x27f0    0x4e  ABImemcpy.o [7]
+  .text              ro code       0x283e     0x2  startup_ac1003.o [2]
+  .text              ro code       0x2840    0x34  IxxToDbl.o [6]
+  .text              ro code       0x2874   0x184  DblMul.o [6]
+  .text              ro code       0x29f8   0x1b4  DblAddSub.o [6]
+  .text              ro code       0x2bac    0x62  DblToFlt.o [6]
+  .text              ro code       0x2c0e     0x8  abs.o [5]
+  .text              ro code       0x2c16     0x2  startup_ac1003.o [2]
+  .text              ro code       0x2c18   0x178  kalman.o [4]
+  .text              ro code       0x2d90    0x52  DblToI32.o [6]
+  .text              ro code       0x2de2    0xb0  FltMul.o [6]
+  .text              ro code       0x2e92    0xa4  FltDiv.o [6]
+  .text              ro code       0x2f36     0x2  startup_ac1003.o [2]
+  .text              ro code       0x2f38    0x32  FltToDbl.o [6]
+  .text              ro code       0x2f6a     0x2  startup_ac1003.o [2]
+  .text              ro code       0x2f6c    0x7c  round64.o [6]
+  .text              ro code       0x2fe8   0x2ee  logx64.o [6]
+  .text              ro code       0x32d6   0x120  FltAddSub.o [6]
+  .text              ro code       0x33f6     0x2  startup_ac1003.o [2]
+  .text              ro code       0x33f8   0x264  main.o [4]
+  .text              ro code       0x365c    0x94  test_basetime.o [4]
+  .text              ro code       0x36f0    0xc2  ac1003_adc.o [3]
+  .text              ro code       0x37b2     0x2  startup_ac1003.o [2]
+  .text              ro code       0x37b4    0xea  ac1003_gpio.o [3]
+  .text              ro code       0x389e     0x2  startup_ac1003.o [2]
+  .text              ro code       0x38a0     0x2  IntDivZer.o [7]
+  .text              ro code       0x38a2     0x2  startup_ac1003.o [2]
+  .text              ro code       0x38a4   0xe3c  xprintflarge_nomb.o [5]
+  .text              ro code       0x46e0    0x54  dlib6_support.o [6]
+  .text              ro code       0x4734    0x2a  frexp.o [6]
+  .text              ro code       0x475e    0x70  ldexp.o [6]
+  .text              ro code       0x47ce    0xc2  DblDiv.o [6]
+  .text              ro code       0x4890   0x208  ac1003_rcc.o [3]
+  .text              ro code       0x4a98   0x240  system_ac1003.o [2]
+  .text              ro code       0x4cd8    0x2c  ac1003_delay.o [3]
+  .text              ro code       0x4d04   0x19c  test_uart.o [4]
+  .text              ro code       0x4ea0   0x594  test_i2c_master.o [4]
+  .text              ro code       0x5434   0x5f4  config.o [4]
+  .text              ro code       0x5a28   0x180  test_exti.o [4]
+  .text              ro code       0x5ba8    0xd0  mgpio.o [4]
+  .text              ro code       0x5c78   0x1fc  sf.o [4]
+  .text              ro code       0x5e74    0xa8  I64DivMod.o [7]
+  .text              ro code       0x5f1c    0x1e  localtim64.o [5]
+  .text              ro code       0x5f3a     0x2  startup_ac1003.o [2]
+  .text              ro code       0x5f3c    0xa8  misc.o [3]
+  .text              ro code       0x5fe4    0x72  ac1003_timer.o [3]
+  .text              ro code       0x6056     0x2  startup_ac1003.o [2]
+  .text              ro code       0x6058    0x12  strchr.o [7]
+  .text              ro code       0x606a     0x2  startup_ac1003.o [2]
+  .text              ro code       0x606c    0x48  xfail_s.o [5]
+  .text              ro code       0x60b4     0xe  strlen.o [7]
+  .text              ro code       0x60c2     0x2  startup_ac1003.o [2]
+  .text              ro code       0x60c4    0x16  memchr.o [7]
+  .text              ro code       0x60da     0x2  startup_ac1003.o [2]
+  .text              ro code       0x60dc     0xc  xlocale_c.o [5]
+  .text              ro code       0x60e8   0x210  ac1003_uart.o [3]
+  .text              ro code       0x62f8   0x13c  ac1003_i2c.o [3]
+  .text              ro code       0x6434    0x32  DblCmpGe.o [6]
+  .text              ro code       0x6466     0x2  startup_ac1003.o [2]
+  .text              ro code       0x6468    0x28  FltCmpGe.o [6]
+  .text              ro code       0x6490    0x28  test_flash.o [4]
+  .text              ro code       0x64b8    0x8c  ac1003_exti.o [3]
+  .text              ro code       0x6544     0x2  I64DivZer.o [7]
+  .text              ro code       0x6546     0x4  xTzoff_nop.o [5]
+  .rodata            const         0x654a     0x1  xlocale_c.o [5]
+  .text              ro code       0x654c   0x184  xttotm64.o [5]
+  .text              ro code       0x66d0     0xa  abort.o [5]
+  .text              ro code       0x66dc    0xcc  xDaysTo64.o [5]
+  .text              ro code       0x67a8     0x6  xisdst_nop64.o [5]
+  .text              ro code       0x67b0    0x14  exit.o [8]
+  .rodata            const         0x67c4    0x6a  xprintflarge_nomb.o [5]
+  .rodata            const         0x6830    0x44  config.o [4]
+  .text              ro code       0x6874    0x3c  zero_init3.o [7]
+  .text              ro code       0x68b0    0x38  test_iwdt .o [4]
+  .text              ro code       0x68e8     0xa  ac1003_iwdt.o [3]
+  .rodata            const         0x68f4    0x28  sh367309.o [1]
+  .text              ro code       0x691c    0x28  data_init.o [7]
+  .text              ro code       0x6944    0x24  ac1003_it.o [3]
+  .iar.init_table    const         0x6968    0x20  - Linker created -
+  .rodata            const         0x6988    0x20  sh367309.o [1]
+  .rodata            const         0x69a8    0x20  sh367309.o [1]
+  .rodata            const         0x69c8    0x20  sh367309.o [1]
+  .text              ro code       0x69e8    0x1e  cmain.o [7]
+  .text              ro code       0x6a06     0x4  low_level_init.o [5]
+  .text              ro code       0x6a0a     0x8  exit.o [5]
+  .text              ro code       0x6a14     0xa  cexit.o [7]
+  .rodata            const         0x6a20    0x1c  sh367309.o [1]
+  .text              ro code       0x6a3c    0x1c  cstartup_M.o [7]
+  .text              ro code       0x6a58    0x16  xprout.o [5]
+  .text              ro code       0x6a70    0x10  putchar.o [5]
+  .rodata            const         0x6a80    0x14  main.o [4]
+  .rodata            const         0x6a94    0x14  sh367309.o [1]
+  .rodata            const         0x6aa8    0x10  sh367309.o [1]
+  .text              ro code       0x6ab8    0x10  startup_ac1003.o [2]
+  .rodata            const         0x6ac8     0xc  sh367309.o [1]
+  .rodata            const         0x6ad4     0x8  sh367309.o [1]
+  .rodata            const         0x6adc     0x8  sh367309.o [1]
+  .rodata            const         0x6ae4     0x8  sh367309.o [1]
+  .rodata            const         0x6aec     0x8  sh367309.o [1]
+  .rodata            const         0x6af4     0x8  sh367309.o [1]
+  .rodata            const         0x6afc     0x4  sh367309.o [1]
+  .rodata            const         0x6b00     0x4  sh367309.o [1]
+  .rodata            const         0x6b04     0x4  sh367309.o [1]
+  .rodata            const         0x6b08     0x4  sh367309.o [1]
+  .rodata            const         0x6b0c     0x4  sh367309.o [1]
+  .rodata            const         0x6b10     0x4  sh367309.o [1]
+  .rodata            const         0x6b14     0x4  sh367309.o [1]
+  .rodata            const         0x6b18     0x4  sh367309.o [1]
+  .rodata            const         0x6b1c     0x0  zero_init3.o [7]
+  .rodata            const         0x6b1c     0x0  packbits_init_single.o [7]
+  Initializer bytes  const         0x6b1c    0x68  <for P2-1>
+                                 - 0x6b84  0x6ac4
+
+"P2", part 1 of 3:                           0x8e
+  P2-1                        0x2000'0000    0x8e  <Init block>
+    .data            inited   0x2000'0000     0x4  system_ac1003.o [2]
+    .data            inited   0x2000'0004     0x4  system_ac1003.o [2]
+    .data            inited   0x2000'0008     0x4  system_ac1003.o [2]
+    .data            inited   0x2000'000c    0x48  xfiles.o [5]
+    .data            inited   0x2000'0054    0x38  xlocale_c.o [5]
+    .data            inited   0x2000'008c     0x2  test_adc.o [4]
+                            - 0x2000'008e    0x8e
+
+"P2", part 2 of 3:                          0x50c
+  .bss               zero     0x2000'0090   0x320  sh367309.o [1]
+  .bss               zero     0x2000'03b0    0x50  xfiles.o [5]
+  .bss               zero     0x2000'0400    0x48  sh367309.o [1]
+  .bss               zero     0x2000'0448    0x38  sh367309.o [1]
+  .bss               zero     0x2000'0480    0x2c  xttotm64.o [5]
+  .bss               zero     0x2000'04ac    0x20  sh367309.o [1]
+  .bss               zero     0x2000'04cc    0x18  kalman.o [4]
+  .bss               zero     0x2000'04e4    0x18  kalman.o [4]
+  .bss               zero     0x2000'04fc    0x10  config.o [4]
+  .bss               zero     0x2000'050c    0x10  test_i2c_master.o [4]
+  .bss               zero     0x2000'051c     0xc  test_i2c_master.o [4]
+  .bss               zero     0x2000'0528     0x8  config.o [4]
+  .bss               zero     0x2000'0530     0x8  config.o [4]
+  .bss               zero     0x2000'0538     0x8  sh367309.o [1]
+  .bss               zero     0x2000'0540     0x8  test_basetime.o [4]
+  .bss               zero     0x2000'0548     0x4  ac1003_it.o [3]
+  .bss               zero     0x2000'054c     0x4  ac1003_uart.o [3]
+  .bss               zero     0x2000'0550     0x4  config.o [4]
+  .bss               zero     0x2000'0554     0x4  config.o [4]
+  .bss               zero     0x2000'0558     0x4  config.o [4]
+  .bss               zero     0x2000'055c     0x4  sh367309.o [1]
+  .bss               zero     0x2000'0560     0x4  test_adc.o [4]
+  .bss               zero     0x2000'0564     0x4  test_adc.o [4]
+  .bss               zero     0x2000'0568     0x4  test_exti.o [4]
+  .bss               zero     0x2000'056c     0x4  test_i2c_master.o [4]
+  .bss               zero     0x2000'0570     0x4  test_iwdt .o [4]
+  .bss               zero     0x2000'0574     0x4  xfail_s.o [5]
+  .bss               zero     0x2000'0578     0x2  ac1003_delay.o [3]
+  .bss               zero     0x2000'057a     0x2  test_adc.o [4]
+  .bss               zero     0x2000'057c     0x1  ac1003_delay.o [3]
+  .bss               zero     0x2000'057d     0x1  sf.o [4]
+  .bss               zero     0x2000'057e     0x1  sf.o [4]
+  .bss               zero     0x2000'057f     0x1  sf.o [4]
+  .bss               zero     0x2000'0580     0x1  sf.o [4]
+  .bss               zero     0x2000'0581     0x1  sf.o [4]
+  .bss               zero     0x2000'0582     0x1  sf.o [4]
+  .bss               zero     0x2000'0583     0x1  sh367309.o [1]
+  .bss               zero     0x2000'0584     0x1  sh367309.o [1]
+  .bss               zero     0x2000'0585     0x1  sh367309.o [1]
+  .bss               zero     0x2000'0586     0x1  sh367309.o [1]
+  .bss               zero     0x2000'0587     0x1  sh367309.o [1]
+  .bss               zero     0x2000'0588     0x1  sh367309.o [1]
+  .bss               zero     0x2000'0589     0x1  sh367309.o [1]
+  .bss               zero     0x2000'058a     0x1  sh367309.o [1]
+  .bss               zero     0x2000'058b     0x1  sh367309.o [1]
+  .bss               zero     0x2000'058c     0x1  sh367309.o [1]
+  .bss               zero     0x2000'058d     0x1  sh367309.o [1]
+  .bss               zero     0x2000'058e     0x1  test_adc.o [4]
+  .bss               zero     0x2000'058f     0x1  test_exti.o [4]
+  .bss               zero     0x2000'0590     0x1  test_i2c_master.o [4]
+  .bss               zero     0x2000'0591     0x1  test_i2c_master.o [4]
+  .bss               zero     0x2000'0592     0x1  test_i2c_master.o [4]
+  .bss               zero     0x2000'0593     0x1  test_i2c_master.o [4]
+  .bss               zero     0x2000'0594     0x1  test_i2c_master.o [4]
+  .bss               zero     0x2000'0595     0x1  test_i2c_master.o [4]
+  .bss               zero     0x2000'0596     0x1  test_uart.o [4]
+  .bss               zero     0x2000'0597     0x1  test_uart.o [4]
+  .bss               zero     0x2000'0598     0x1  test_uart.o [4]
+                            - 0x2000'0599   0x509
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'05a0   0x400  <Block>
+    CSTACK           uninit   0x2000'05a0   0x400  <Block tail>
+                            - 0x2000'09a0   0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+       0x6b84       0xffff  0x947c
+  0x2000'008e  0x2000'008f     0x2
+  0x2000'059c  0x2000'059f     0x4
+  0x2000'09a0  0x2000'0fff   0x660
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x509:
+          0x2000'0090  0x509
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x68 (73% of destination):
+               0x6b1c   0x68
+    1 destination range, total size 0x8e:
+          0x2000'0000   0x8e
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\CONFIG: [1]
+    sh367309.o                8'952      284      983
+    -------------------------------------------------
+    Total:                    8'952      284      983
+
+C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\DEVICE: [2]
+    startup_ac1003.o            238
+    system_ac1003.o             576        8       12
+    -------------------------------------------------
+    Total:                      814        8       12
+
+C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB: [3]
+    ac1003_adc.o                194
+    ac1003_delay.o               44                 3
+    ac1003_exti.o               140
+    ac1003_gpio.o               234
+    ac1003_i2c.o                316
+    ac1003_it.o                  36                 4
+    ac1003_iwdt.o                10
+    ac1003_rcc.o                520
+    ac1003_timer.o              114
+    ac1003_uart.o               528                 4
+    misc.o                      168
+    -------------------------------------------------
+    Total:                    2'304                11
+
+C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER: [4]
+    config.o                  1'524       68       44
+    kalman.o                    376                48
+    main.o                      612       20
+    mgpio.o                     208
+    sf.o                        508                 6
+    test_adc.o                  560        2       13
+    test_basetime.o             148                 8
+    test_exti.o                 384                 5
+    test_flash.o                 40
+    test_i2c_master.o         1'428                38
+    test_iwdt .o                 56                 4
+    test_uart.o                 412                 3
+    -------------------------------------------------
+    Total:                    6'256       90      169
+
+dl6M_tlf.a: [5]
+    abort.o                      10
+    abs.o                         8
+    exit.o                        8
+    localtim64.o                 30
+    low_level_init.o              4
+    printf.o                     40
+    putchar.o                    16
+    xDaysTo64.o                 204
+    xTzoff_nop.o                  4
+    xfail_s.o                    72                 4
+    xfiles.o                              53      152
+    xisdst_nop64.o                6
+    xlocale_c.o                  12       44       56
+    xprintflarge_nomb.o       3'644      106
+    xprout.o                     22
+    xttotm64.o                  388                44
+    -------------------------------------------------
+    Total:                    4'468      203      256
+
+m6M_tl.a: [6]
+    DblAddSub.o                 436
+    DblCmpGe.o                   50
+    DblDiv.o                    194
+    DblMul.o                    388
+    DblToFlt.o                   98
+    DblToI32.o                   82
+    FltAddSub.o                 288
+    FltCmpGe.o                   40
+    FltDiv.o                    164
+    FltMul.o                    176
+    FltToDbl.o                   50
+    FltToS32.o                   58
+    IxxToDbl.o                   52
+    IxxToFlt.o                   54
+    dlib6_support.o              84
+    frexp.o                      42
+    ldexp.o                     112
+    logx64.o                    750
+    round64.o                   124
+    -------------------------------------------------
+    Total:                    3'242
+
+rt6M_tl.a: [7]
+    ABImemcpy.o                  78
+    ABImemset.o                  78
+    I32DivModFast.o             224
+    I64DivMod.o                 168
+    I64DivZer.o                   2
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    memchr.o                     22
+    packbits_init_single.o       62
+    strchr.o                     18
+    strlen.o                     14
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      836
+
+shb_l.a: [8]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          9        6
+    Linker created                        32    1'024
+-----------------------------------------------------
+    Grand Total:             26'901      623    2'455
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base        0x6968           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x6988           --   Gb  - Linker created -
+?main                        0x69e9          Code  Gb  cmain.o [7]
+ADC_ClearFlag                0x37ab     0x8  Code  Gb  ac1003_adc.o [3]
+ADC_Cmd                      0x3735    0x1c  Code  Gb  ac1003_adc.o [3]
+ADC_CommonInit               0x3709    0x2c  Code  Gb  ac1003_adc.o [3]
+ADC_FLAG                0x2000'0560     0x4  Data  Gb  test_adc.o [4]
+ADC_GetConversionValue       0x376f     0x6  Code  Gb  ac1003_adc.o [3]
+ADC_GetMISFlagStatus         0x3795    0x16  Code  Gb  ac1003_adc.o [3]
+ADC_GetSoftwareStartConvStatus
+                             0x375b    0x14  Code  Gb  ac1003_adc.o [3]
+ADC_IRQHandler               0x2413   0x120  Code  Gb  test_adc.o [4]
+ADC_ITCmd                    0x3775    0x18  Code  Gb  ac1003_adc.o [3]
+ADC_Init                     0x36f1    0x18  Code  Gb  ac1003_adc.o [3]
+ADC_Mode_Config              0x23b9    0x5a  Code  Gb  test_adc.o [4]
+ADC_SoftwareStartConv        0x3751     0xa  Code  Gb  ac1003_adc.o [3]
+AdcForTemperature            0x2533    0x96  Code  Gb  test_adc.o [4]
+AdcForTemperature::adcmax
+                        0x2000'057a     0x2  Data  Lc  test_adc.o [4]
+AdcForTemperature::adcmin
+                        0x2000'008c     0x2  Data  Lc  test_adc.o [4]
+AdcForTemperature::adcsum
+                        0x2000'0564     0x4  Data  Lc  test_adc.o [4]
+AdcForTemperature::counter
+                        0x2000'058e     0x1  Data  Lc  test_adc.o [4]
+AdjSocByStaticVoltage        0x58ad    0x9e  Code  Gb  config.o [4]
+AhbClock                0x2000'0004     0x4  Data  Gb  system_ac1003.o [2]
+ApbClock                0x2000'0008     0x4  Data  Gb  system_ac1003.o [2]
+Assert                         0xc1     0xc  Code  Gb  sh367309.o [1]
+BASIC_TIMFLag           0x2000'0540     0x8  Data  Gb  test_basetime.o [4]
+BASIC_TIM_Mode_Config        0x3679    0x48  Code  Gb  test_basetime.o [4]
+BalanceManage                 0x227    0xec  Code  Gb  sh367309.o [1]
+CSTACK$$Base            0x2000'05a0           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'09a0           --   Gb  - Linker created -
+CalNowSOH                    0x56c1    0xae  Code  Gb  config.o [4]
+ClrStatusRegister             0x54d    0x6c  Code  Gb  sh367309.o [1]
+ClrStatusRegister::counter1
+                        0x2000'058c     0x1  Data  Lc  sh367309.o [1]
+ClrStatusRegister::counter2
+                        0x2000'058d     0x1  Data  Lc  sh367309.o [1]
+CurrentKalmanFliter          0x2cfb     0xc  Code  Gb  kalman.o [4]
+CurrentKalmanFliterInit
+                             0x2cd7    0x12  Code  Gb  kalman.o [4]
+Delay                        0x33f9    0x12  Code  Gb  main.o [4]
+DescendingOrderSort           0x839    0xc4  Code  Gb  sh367309.o [1]
+EXTI_IT_FLAG            0x2000'058f     0x1  Data  Gb  test_exti.o [4]
+EXTI_Key_Config              0x5a45    0x56  Code  Gb  test_exti.o [4]
+Endian2Bytes                  0x5e5    0x42  Code  Gb  sh367309.o [1]
+GPIOA_IRQHandler             0x5b51    0x10  Code  Gb  test_exti.o [4]
+GPIOB_IRQHandler             0x5b61    0x10  Code  Gb  test_exti.o [4]
+GPIOC_IRQHandler             0x5b71    0x10  Code  Gb  test_exti.o [4]
+GPIOD_IRQHandler             0x5b81    0x10  Code  Gb  test_exti.o [4]
+GPIOD_NVIC_Configuration
+                             0x5a29    0x1c  Code  Lc  test_exti.o [4]
+GPIO_Config                  0x5ba9    0xac  Code  Gb  mgpio.o [4]
+GPIO_EXTILineConfig          0x64b9    0x8c  Code  Gb  ac1003_exti.o [3]
+GPIO_IRQHandler              0x5a9b    0xb6  Code  Lc  test_exti.o [4]
+GPIO_Init                    0x37b5    0x96  Code  Gb  ac1003_gpio.o [3]
+GPIO_PinAFConfig             0x386f    0x30  Code  Gb  ac1003_gpio.o [3]
+GPIO_ReadInputDataBit        0x384b    0x18  Code  Gb  ac1003_gpio.o [3]
+GPIO_ResetBits               0x3869     0x6  Code  Gb  ac1003_gpio.o [3]
+GPIO_SetBits                 0x3863     0x6  Code  Gb  ac1003_gpio.o [3]
+GetAllSingleVoltage           0x35b    0x44  Code  Gb  sh367309.o [1]
+GetCellStatus                 0x435    0x38  Code  Gb  sh367309.o [1]
+GetConfStatus                 0x475    0x28  Code  Gb  sh367309.o [1]
+GetCurrentParameters          0x3ad    0x40  Code  Gb  sh367309.o [1]
+GetEnBalStatus                0x221     0x6  Code  Gb  sh367309.o [1]
+GetLimitedSingleVoltage
+                              0x7bd    0x6c  Code  Gb  sh367309.o [1]
+GetMcuTemperature             0x139    0x3a  Code  Gb  sh367309.o [1]
+GetNegativeRvalue            0x2d33    0x12  Code  Gb  kalman.o [4]
+GetNowSOH                    0x57d1     0x8  Code  Gb  config.o [4]
+GetPackProtectedStatus        0x8fd    0x5e  Code  Gb  sh367309.o [1]
+GetPositiveRvalue            0x2d25     0xe  Code  Gb  kalman.o [4]
+GetStandardTime              0x35f3    0x4a  Code  Gb  main.o [4]
+GetTemperatureParameters
+                              0x3ed    0x44  Code  Gb  sh367309.o [1]
+GetTemperatureRref            0x319    0x42  Code  Gb  sh367309.o [1]
+GetTick                      0x36dd     0x6  Code  Gb  test_basetime.o [4]
+HardFault_Handler            0x6947     0x4  Code  Gb  ac1003_it.o [3]
+I2C_AcknowledgeConfig        0x63f1    0x1c  Code  Gb  ac1003_i2c.o [3]
+I2C_Cmd                      0x6371    0x1c  Code  Gb  ac1003_i2c.o [3]
+I2C_EveStruct           0x2000'051c     0xc  Data  Gb  test_i2c_master.o [4]
+I2C_GenerateSTART            0x63b9    0x1c  Code  Gb  ac1003_i2c.o [3]
+I2C_GenerateSTOP             0x63d5    0x1c  Code  Gb  ac1003_i2c.o [3]
+I2C_IRQHandler               0x53dd    0x30  Code  Gb  test_i2c_master.o [4]
+I2C_IRQHandler_MasterRecive
+                             0x5169   0x274  Code  Gb  test_i2c_master.o [4]
+I2C_IRQHandler_MasterRecive::transmit_num
+                        0x2000'0595     0x1  Data  Lc  test_i2c_master.o [4]
+I2C_IRQHandler_MasterSend
+                             0x4fe5   0x158  Code  Gb  test_i2c_master.o [4]
+I2C_IRQHandler_MasterSend::transmit_num
+                        0x2000'0594     0x1  Data  Lc  test_i2c_master.o [4]
+I2C_Init                     0x62f9    0x78  Code  Gb  ac1003_i2c.o [3]
+I2C_MasterSendCmd            0x638d    0x2c  Code  Gb  ac1003_i2c.o [3]
+I2C_Master_Init              0x4ebd    0x90  Code  Gb  test_i2c_master.o [4]
+I2C_Master_Receive           0x4f4d    0x4a  Code  Gb  test_i2c_master.o [4]
+I2C_Master_Transmit          0x4f97    0x4e  Code  Gb  test_i2c_master.o [4]
+I2C_REVCIVE_END         0x2000'0592     0x1  Data  Gb  test_i2c_master.o [4]
+I2C_REVCIVE_START       0x2000'0591     0x1  Data  Gb  test_i2c_master.o [4]
+I2C_ReceiveData              0x6413     0x6  Code  Gb  ac1003_i2c.o [3]
+I2C_SEND_NUM            0x2000'0593     0x1  Data  Gb  test_i2c_master.o [4]
+I2C_SEND_START          0x2000'0590     0x1  Data  Gb  test_i2c_master.o [4]
+I2C_SendData                 0x640d     0x6  Code  Gb  ac1003_i2c.o [3]
+I2C_buffer              0x2000'050c    0x10  Data  Gb  test_i2c_master.o [4]
+IWDG_FLAG               0x2000'0570     0x4  Data  Gb  test_iwdt .o [4]
+IWDG_IRQHandler              0x68b1    0x24  Code  Gb  test_iwdt .o [4]
+IWDG_WdtITClear              0x68ed     0x6  Code  Gb  ac1003_iwdt.o [3]
+IWDG_WriteAccessCmd          0x68e9     0x4  Code  Gb  ac1003_iwdt.o [3]
+IsChargeStatus               0x57e1    0x2e  Code  Gb  config.o [4]
+IsDataAllRight               0x2397    0x22  Code  Gb  sh367309.o [1]
+IsEcuEnter                   0x5c55    0x18  Code  Gb  mgpio.o [4]
+IsSendAllowed                0x5e4b     0x6  Code  Gb  sf.o [4]
+KalmanFliter                 0x2cbf    0x18  Code  Gb  kalman.o [4]
+Kalman_Test                  0x2d45    0x4c  Code  Gb  kalman.o [4]
+Mos                            0xcd    0x6c  Code  Gb  sh367309.o [1]
+MosTempProtectedCheck         0x173    0xa8  Code  Gb  sh367309.o [1]
+MosTempProtectedCheck::t_protected_h
+                        0x2000'058a     0x1  Data  Lc  sh367309.o [1]
+NMI_Handler                  0x6945     0x2  Code  Gb  ac1003_it.o [3]
+NVIC_Configuration           0x4ea1    0x1c  Code  Lc  test_i2c_master.o [4]
+NVIC_Init                    0x5f3d    0x74  Code  Gb  misc.o [3]
+OnePercentCap                0x5435   0x1b4  Code  Gb  config.o [4]
+OnePercentCap::s_timer  0x2000'0530     0x8  Data  Lc  config.o [4]
+OnePercentCap::t_current
+                        0x2000'0554     0x4  Data  Lc  config.o [4]
+OnePercentCap::t_mAh    0x2000'0550     0x4  Data  Lc  config.o [4]
+OnePercentCap::t_old_current
+                        0x2000'0558     0x4  Data  Lc  config.o [4]
+PRINT                        0x59b9    0x40  Code  Gb  config.o [4]
+PendSV_Handler               0x694d     0x2  Code  Gb  ac1003_it.o [3]
+RCC_AHBPeriphClockCmd        0x4a07    0x18  Code  Gb  ac1003_rcc.o [3]
+RCC_APBPeriphClockCmd        0x4a1f    0x18  Code  Gb  ac1003_rcc.o [3]
+RCC_GetHCLKFreq              0x4a57     0x6  Code  Gb  ac1003_rcc.o [3]
+RCC_GetPCLKFreq              0x4a5d    0x20  Code  Gb  ac1003_rcc.o [3]
+RCC_HIRCTrim                 0x4891    0x88  Code  Gb  ac1003_rcc.o [3]
+RCC_ResetCmd                 0x4a37    0x20  Code  Gb  ac1003_rcc.o [3]
+RCC_SysclkCmd                0x4981    0x86  Code  Gb  ac1003_rcc.o [3]
+RCC_WaitForHIRCStable        0x4919    0x3c  Code  Gb  ac1003_rcc.o [3]
+ReadFromFlash                0x6491    0x28  Code  Gb  test_flash.o [4]
+RecordCycleTimes             0x55e9    0x32  Code  Gb  config.o [4]
+RecordProtectedStatus         0x9ad  0x1890  Code  Gb  sh367309.o [1]
+Region$$Table$$Base          0x6968           --   Gb  - Linker created -
+Region$$Table$$Limit         0x6988           --   Gb  - Linker created -
+Rt2Temperature                0x763    0x4e  Code  Gb  sh367309.o [1]
+SVC_Handler                  0x694b     0x2  Code  Gb  ac1003_it.o [3]
+Send                         0x59a7     0xc  Code  Gb  config.o [4]
+SendHandle                   0x5c95   0x1b6  Code  Gb  sf.o [4]
+SendHandle::bit_counter
+                        0x2000'0580     0x1  Data  Lc  sf.o [4]
+SendHandle::byte        0x2000'0582     0x1  Data  Lc  sf.o [4]
+SendHandle::byte_counter
+                        0x2000'0581     0x1  Data  Lc  sf.o [4]
+SendHandle::step        0x2000'057f     0x1  Data  Lc  sf.o [4]
+SendHandle::timer_init  0x2000'057e     0x1  Data  Lc  sf.o [4]
+SendHighBit                  0x5c79    0x1c  Code  Gb  sf.o [4]
+SetEnBalStatus                0x21b     0x6  Code  Gb  sh367309.o [1]
+SetRegister                   0x4ad    0x9a  Code  Gb  sh367309.o [1]
+SetSendAllowedStatus         0x5e51     0x6  Code  Gb  sf.o [4]
+SocAdjustByVoltage           0x5673    0x42  Code  Gb  config.o [4]
+SocDecayDueToTemperature
+                             0x5781    0x4c  Code  Gb  config.o [4]
+SocKalmanFliter              0x2d07     0xc  Code  Gb  kalman.o [4]
+SocKalmanFliterInit          0x2ce9    0x12  Code  Gb  kalman.o [4]
+SocKalmanManage              0x594b    0x22  Code  Gb  config.o [4]
+SysTick_CLKSourceConfig
+                             0x5fb1    0x22  Code  Gb  misc.o [3]
+SysTick_Callback        0x2000'0548     0x4  Data  Gb  ac1003_it.o [3]
+SysTick_Handler              0x694f    0x12  Code  Gb  ac1003_it.o [3]
+SystemCoreClock         0x2000'0000     0x4  Data  Gb  system_ac1003.o [2]
+SystemCoreClockUpdate        0x4acd   0x186  Code  Gb  system_ac1003.o [2]
+SystemDataInitByReadFlash
+                             0x581d    0x80  Code  Gb  config.o [4]
+SystemInit                   0x4a99    0x34  Code  Gb  system_ac1003.o [2]
+SystemReset                  0x35e5     0xe  Code  Gb  main.o [4]
+TIM10_IRQHandler             0x36c1    0x1c  Code  Gb  test_basetime.o [4]
+TIM_ClearITFlag              0x604d     0xa  Code  Gb  ac1003_timer.o [3]
+TIM_Cmd                      0x600f    0x1c  Code  Gb  ac1003_timer.o [3]
+TIM_ITConfig                 0x602b    0x1c  Code  Gb  ac1003_timer.o [3]
+TIM_NVIC_Config              0x365d    0x1c  Code  Lc  test_basetime.o [4]
+TIM_SetTimerLoadRegister
+                             0x6047     0x6  Code  Gb  ac1003_timer.o [3]
+TIM_TimeBaseInit             0x5fe5    0x2a  Code  Gb  ac1003_timer.o [3]
+TimeOut                      0x2251    0xda  Code  Gb  sh367309.o [1]
+TimeOut::timer          0x2000'0400    0x48  Data  Lc  sh367309.o [1]
+UART0_IRQHandler             0x4e2f    0x46  Code  Gb  test_uart.o [4]
+UART1_Config                 0x4d21    0xa8  Code  Gb  test_uart.o [4]
+UART1_IRQHandler             0x4deb    0x44  Code  Gb  test_uart.o [4]
+UART1_NVIC_Configuration
+                             0x4d05    0x1c  Code  Lc  test_uart.o [4]
+UART_Cmd                     0x627d    0x34  Code  Gb  ac1003_uart.o [3]
+UART_ITConfig                0x62b1    0x18  Code  Gb  ac1003_uart.o [3]
+UART_Init                    0x6109   0x174  Code  Gb  ac1003_uart.o [3]
+UART_RX_BUF             0x2000'0596     0x1  Data  Gb  test_uart.o [4]
+UART_ReceiveData             0x62cf     0x6  Code  Gb  ac1003_uart.o [3]
+UART_SendData                0x62c9     0x6  Code  Gb  ac1003_uart.o [3]
+UpdatePackStatus             0x597d    0x2a  Code  Gb  config.o [4]
+WAKEUP_STATS            0x2000'0568     0x4  Data  Gb  test_exti.o [4]
+_LitobLargeNoMb              0x4517   0x124  Code  Lc  xprintflarge_nomb.o [5]
+_Locale_lconv           0x2000'0054    0x38  Data  Lc  xlocale_c.o [5]
+_PrintfLargeNoMb             0x38a5   0xc72  Code  Gb  xprintflarge_nomb.o [5]
+_Prout                       0x6a59    0x16  Code  Gb  xprout.o [5]
+_PutcharLargeNoMb            0x4689    0x22  Code  Lc  xprintflarge_nomb.o [5]
+_PutcharsLargeNoMb           0x46ab    0x36  Code  Lc  xprintflarge_nomb.o [5]
+_Ttotm_ts               0x2000'0480    0x2c  Data  Lc  xttotm64.o [5]
+_Tzoff                       0x6547     0x4  Code  Gb  xTzoff_nop.o [5]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'0fff          Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000          Data  Gb  <internal module>
+__NVIC_DisableIRQ            0x60e9    0x20  Code  Lc  ac1003_uart.o [3]
+__aeabi_cdrcmple             0x6435          Code  Gb  DblCmpGe.o [6]
+__aeabi_cfrcmple             0x6469          Code  Gb  FltCmpGe.o [6]
+__aeabi_d2f                  0x2bad          Code  Gb  DblToFlt.o [6]
+__aeabi_d2iz                 0x2d91          Code  Gb  DblToI32.o [6]
+__aeabi_d2uiz                0x2db5          Code  Gb  DblToI32.o [6]
+__aeabi_dadd                 0x29f9          Code  Gb  DblAddSub.o [6]
+__aeabi_ddiv                 0x47cf          Code  Gb  DblDiv.o [6]
+__aeabi_dmul                 0x2875          Code  Gb  DblMul.o [6]
+__aeabi_dsub                 0x2abf          Code  Gb  DblAddSub.o [6]
+__aeabi_f2d                  0x2f39          Code  Gb  FltToDbl.o [6]
+__aeabi_f2iz                 0x273d          Code  Gb  FltToS32.o [6]
+__aeabi_fadd                 0x32d7          Code  Gb  FltAddSub.o [6]
+__aeabi_fdiv                 0x2e93          Code  Gb  FltDiv.o [6]
+__aeabi_fmul                 0x2de3          Code  Gb  FltMul.o [6]
+__aeabi_fsub                 0x3347          Code  Gb  FltAddSub.o [6]
+__aeabi_i2d                  0x2861          Code  Gb  IxxToDbl.o [6]
+__aeabi_i2f                  0x26e9          Code  Gb  IxxToFlt.o [6]
+__aeabi_idiv                 0x2615          Code  Gb  I32DivModFast.o [7]
+__aeabi_idiv0                0x38a1          Code  Gb  IntDivZer.o [7]
+__aeabi_idivmod              0x2615          Code  Gb  I32DivModFast.o [7]
+__aeabi_ldiv0                0x6545          Code  Gb  I64DivZer.o [7]
+__aeabi_ldivmod              0x5e75          Code  Gb  I64DivMod.o [7]
+__aeabi_memcpy               0x2825          Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy4              0x27f1          Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy8              0x27f1          Code  Gb  ABImemcpy.o [7]
+__aeabi_memset               0x27a1          Code  Gb  ABImemset.o [7]
+__aeabi_ui2d                 0x2841          Code  Gb  IxxToDbl.o [6]
+__aeabi_ui2f                 0x26c9          Code  Gb  IxxToFlt.o [6]
+__aeabi_uidiv                0x261b          Code  Gb  I32DivModFast.o [7]
+__aeabi_uidivmod             0x261b          Code  Gb  I32DivModFast.o [7]
+__aeabi_uldivmod             0x5eb3          Code  Gb  I64DivMod.o [7]
+__cmain                      0x69e9          Code  Gb  cmain.o [7]
+__exit                       0x67b1    0x14  Code  Gb  exit.o [8]
+__iar_Daysto64               0x6709    0x6c  Code  Gb  xDaysTo64.o [5]
+__iar_Fail_s                 0x606d    0x22  Code  Gb  xfail_s.o [5]
+__iar_Isdst64                0x67a9     0x6  Code  Gb  xisdst_nop64.o [5]
+__iar_Log64                  0x2fe9   0x248  Code  Lc  logx64.o [6]
+__iar_Memchr                 0x60c5          Code  Gb  memchr.o [7]
+__iar_Memcpy                 0x2831          Code  Gb  ABImemcpy.o [7]
+__iar_Memset4_word           0x27c1          Code  Gb  ABImemset.o [7]
+__iar_Memset_word            0x27ad          Code  Gb  ABImemset.o [7]
+__iar_MonTab64               0x66dd    0x2c  Code  Gb  xDaysTo64.o [5]
+__iar_Stdout            0x2000'000c    0x48  Data  Gb  xfiles.o [5]
+__iar_Strchr                 0x6059          Code  Gb  strchr.o [7]
+__iar_Ttotm64                0x654d   0x184  Code  Gb  xttotm64.o [5]
+__iar_d2uiz                  0x2db9          Code  Gb  DblToI32.o [6]
+__iar_data_init3             0x691d    0x28  Code  Gb  data_init.o [7]
+__iar_frexp                  0x4741          Code  Gb  frexp.o [6]
+__iar_frexp64                0x4735          Code  Gb  frexp.o [6]
+__iar_frexpl                 0x4741          Code  Gb  frexp.o [6]
+__iar_ldexp64                0x475f          Code  Gb  ldexp.o [6]
+__iar_log64                  0x32cd     0xa  Code  Gb  logx64.o [6]
+__iar_log_medium             0x32cd     0xa  Code  Gb  logx64.o [6]
+__iar_log_medium64           0x32cd     0xa  Code  Gb  logx64.o [6]
+__iar_log_mediuml            0x32cd     0xa  Code  Gb  logx64.o [6]
+__iar_packbits_init_single3
+                             0x26ff    0x3e  Code  Gb  packbits_init_single.o [7]
+__iar_program_start          0x6a3d          Code  Gb  cstartup_M.o [7]
+__iar_round64                0x2f6d    0x7c  Code  Gb  round64.o [6]
+__iar_scalbln64              0x475f          Code  Gb  ldexp.o [6]
+__iar_scalbn64               0x475f          Code  Gb  ldexp.o [6]
+__iar_trunc64                0x46e1    0x44  Code  Gb  dlib6_support.o [6]
+__iar_trunc_0_64             0x4725     0xa  Code  Gb  dlib6_support.o [6]
+__iar_zero_init3             0x6875    0x3c  Code  Gb  zero_init3.o [7]
+__localtime64                0x5f1d    0x1e  Code  Gb  localtim64.o [5]
+__low_level_init             0x6a07     0x4  Code  Gb  low_level_init.o [5]
+__vector_table                  0x0          Data  Gb  startup_ac1003.o [2]
+_call_main                   0x69f5          Code  Gb  cmain.o [7]
+_exit                        0x6a15          Code  Gb  cexit.o [7]
+abort                        0x66d1     0xa  Code  Gb  abort.o [5]
+abs                          0x2c0f     0x8  Code  Gb  abs.o [5]
+allow_send              0x2000'057d     0x1  Data  Lc  sf.o [4]
+c0_switch                     0x667    0x62  Code  Gb  sh367309.o [1]
+calculate_u16           0x2000'04fc    0x10  Data  Gb  config.o [4]
+cell_v                  0x2000'0448    0x38  Data  Gb  sh367309.o [1]
+crc8                         0x2339    0x5e  Code  Gb  sh367309.o [1]
+ctrl_conf               0x2000'0586     0x1  Data  Gb  sh367309.o [1]
+curr0_                  0x2000'055c     0x4  Data  Gb  sh367309.o [1]
+delay_init                   0x4cd9    0x22  Code  Gb  ac1003_delay.o [3]
+en_bal                  0x2000'058b     0x1  Data  Lc  sh367309.o [1]
+exit                         0x6a0b     0x8  Code  Gb  exit.o [5]
+fac_ms                  0x2000'0578     0x2  Data  Lc  ac1003_delay.o [3]
+fac_us                  0x2000'057c     0x1  Data  Lc  ac1003_delay.o [3]
+fputc                        0x4dc9    0x22  Code  Gb  test_uart.o [4]
+frexp                        0x4735          Code  Gb  frexp.o [6]
+frexpl                       0x4735          Code  Gb  frexp.o [6]
+gParity                 0x2000'054c     0x4  Data  Lc  ac1003_uart.o [3]
+gRXFlagState            0x2000'0597     0x1  Data  Gb  test_uart.o [4]
+gTXFlagState            0x2000'0598     0x1  Data  Gb  test_uart.o [4]
+g_rdata                 0x2000'056c     0x4  Data  Gb  test_i2c_master.o [4]
+kalman_filter_init           0x2c19    0x18  Code  Gb  kalman.o [4]
+kalman_filter_predict        0x2c31    0x26  Code  Gb  kalman.o [4]
+kalman_filter_update         0x2c57    0x68  Code  Gb  kalman.o [4]
+kf_current              0x2000'04cc    0x18  Data  Gb  kalman.o [4]
+kf_soc                  0x2000'04e4    0x18  Data  Gb  kalman.o [4]
+ldexp                        0x475f          Code  Gb  ldexp.o [6]
+ldexpl                       0x475f          Code  Gb  ldexp.o [6]
+lmos                         0x6778    0x18  Data  Lc  xDaysTo64.o [5]
+localeconv                   0x60dd     0x4  Code  Gb  xlocale_c.o [5]
+localtime                    0x5f1d    0x1e  Code  Gb  localtim64.o [5]
+log                          0x32cd     0xa  Code  Gb  logx64.o [6]
+logl                         0x32cd     0xa  Code  Gb  logx64.o [6]
+mAhIntegral                  0x561b    0x58  Code  Gb  config.o [4]
+m_bflag1                0x2000'0587     0x1  Data  Gb  sh367309.o [1]
+m_bflag2                0x2000'0588     0x1  Data  Gb  sh367309.o [1]
+m_record                0x2000'0090   0x320  Data  Gb  sh367309.o [1]
+main                         0x340b   0x1da  Code  Gb  main.o [4]
+memchr                       0x60c5          Code  Gb  memchr.o [7]
+mos                          0x6790    0x18  Data  Lc  xDaysTo64.o [5]
+obuf                    0x2000'03b0    0x50  Data  Lc  xfiles.o [5]
+printf                       0x2779    0x28  Code  Gb  printf.o [5]
+putchar                      0x6a71    0x10  Code  Gb  putchar.o [5]
+record_counter          0x2000'0589     0x1  Data  Lc  sh367309.o [1]
+round                        0x2f6d    0x7c  Code  Gb  round64.o [6]
+roundl                       0x2f6d    0x7c  Code  Gb  round64.o [6]
+scalbln                      0x475f          Code  Gb  ldexp.o [6]
+scalblnl                     0x475f          Code  Gb  ldexp.o [6]
+scalbn                       0x475f          Code  Gb  ldexp.o [6]
+scalbnl                      0x475f          Code  Gb  ldexp.o [6]
+scale                        0x463b    0x44  Code  Lc  xprintflarge_nomb.o [5]
+sec_hand                0x2000'0574     0x4  Data  Lc  xfail_s.o [5]
+sif_para                0x2000'0528     0x8  Data  Gb  config.o [4]
+status1                 0x2000'0583     0x1  Data  Gb  sh367309.o [1]
+status2                 0x2000'0584     0x1  Data  Gb  sh367309.o [1]
+status3                 0x2000'0585     0x1  Data  Gb  sh367309.o [1]
+strchr                       0x6059          Code  Gb  strchr.o [7]
+strlen                       0x60b5          Code  Gb  strlen.o [7]
+t_switch                      0x6f5    0x6e  Code  Gb  sh367309.o [1]
+temp_                   0x2000'0538     0x8  Data  Gb  sh367309.o [1]
+v_switch                      0x627    0x40  Code  Gb  sh367309.o [1]
+vol_                    0x2000'04ac    0x20  Data  Gb  sh367309.o [1]
+
+
+[1] = C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\CONFIG
+[2] = C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\DEVICE
+[3] = C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\FWLB
+[4] = C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Debug\Obj\USER
+[5] = dl6M_tlf.a
+[6] = m6M_tl.a
+[7] = rt6M_tl.a
+[8] = shb_l.a
+
+  26'901 bytes of readonly  code memory
+     623 bytes of readonly  data memory
+   2'455 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

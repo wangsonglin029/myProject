@@ -1,0 +1,13 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\EWARM\\Demo.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\EWARM\\Demo.eww": {
+      "configs": {},
+      "selected": {
+        "path": "${workspaceFolder}\\EWARM\\Demo.ewp"
+      }
+    }
+  }
+}

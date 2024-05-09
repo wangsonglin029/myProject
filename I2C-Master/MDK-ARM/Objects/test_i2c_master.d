@@ -1,0 +1,17 @@
+.\objects\test_i2c_master.o: ..\USER\src\test_i2c_master.c
+.\objects\test_i2c_master.o: ..\USER\inc\test_i2c_master.h
+.\objects\test_i2c_master.o: ..\DEVICE\ac1003.h
+.\objects\test_i2c_master.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\test_i2c_master.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_i2c_master.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\test_i2c_master.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\test_i2c_master.o: ..\DEVICE\system_ac1003.h
+.\objects\test_i2c_master.o: ..\FWLB\inc\ac1003_conf.h
+.\objects\test_i2c_master.o: ..\FWLB\inc\ac1003_i2c.h
+.\objects\test_i2c_master.o: ..\FWLB\inc\ac1003_conf.h
+.\objects\test_i2c_master.o: ..\FWLB\inc\ac1003_gpio.h
+.\objects\test_i2c_master.o: ..\FWLB\inc\misc.h
+.\objects\test_i2c_master.o: ..\USER\inc\test_uart.h
+.\objects\test_i2c_master.o: ..\FWLB\inc\ac1003_uart.h
+.\objects\test_i2c_master.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_i2c_master.o: ..\FWLB\inc\ac1003_rcc.h

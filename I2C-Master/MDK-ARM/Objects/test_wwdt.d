@@ -1,0 +1,13 @@
+.\objects\test_wwdt.o: ..\USER\src\test_wwdt.c
+.\objects\test_wwdt.o: ..\USER\inc\test_wwdt.h
+.\objects\test_wwdt.o: ..\FWLB\inc\ac1003_wwdt.h
+.\objects\test_wwdt.o: ..\DEVICE\ac1003.h
+.\objects\test_wwdt.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\test_wwdt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_wwdt.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\test_wwdt.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\test_wwdt.o: ..\DEVICE\system_ac1003.h
+.\objects\test_wwdt.o: ..\FWLB\inc\ac1003_conf.h
+.\objects\test_wwdt.o: ..\FWLB\inc\ac1003_i2c.h
+.\objects\test_wwdt.o: ..\FWLB\inc\ac1003_conf.h
+.\objects\test_wwdt.o: ..\FWLB\inc\misc.h

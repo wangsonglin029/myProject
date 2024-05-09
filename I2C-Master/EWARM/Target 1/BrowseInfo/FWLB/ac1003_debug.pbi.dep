@@ -1,0 +1,18 @@
+C:\Users\LWBJB003\Desktop\I2C-Master\EWARM\Target\ 1\BrowseInfo\FWLB\ac1003_debug.pbi: \
+  C:\Users\LWBJB003\Desktop\I2C-Master\FWLB\src\ac1003_debug.c \
+  C:\Users\LWBJB003\Desktop\I2C-Master\EWARM/../FWLB/inc\ac1003_debug.h \
+  C:\Users\LWBJB003\Desktop\I2C-Master\EWARM/../DEVICE\ac1003.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\core_cm0plus.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Full.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include/cmsis_version.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include/cmsis_compiler.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\Users\LWBJB003\Desktop\I2C-Master\EWARM/../DEVICE/system_ac1003.h \
+  C:\Users\LWBJB003\Desktop\I2C-Master\EWARM/../FWLB/inc/ac1003_conf.h \
+  C:\Users\LWBJB003\Desktop\I2C-Master\EWARM/../FWLB/inc/ac1003_i2c.h

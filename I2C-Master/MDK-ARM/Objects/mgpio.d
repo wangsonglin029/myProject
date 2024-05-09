@@ -1,0 +1,14 @@
+.\objects\mgpio.o: ..\USER\src\mgpio.c
+.\objects\mgpio.o: ..\USER\inc\mgpio.h
+.\objects\mgpio.o: ..\FWLB\inc\ac1003_gpio.h
+.\objects\mgpio.o: ..\DEVICE\ac1003.h
+.\objects\mgpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\mgpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mgpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\mgpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\mgpio.o: ..\DEVICE\system_ac1003.h
+.\objects\mgpio.o: ..\FWLB\inc\ac1003_conf.h
+.\objects\mgpio.o: ..\FWLB\inc\ac1003_i2c.h
+.\objects\mgpio.o: ..\FWLB\inc\ac1003_conf.h
+.\objects\mgpio.o: ..\FWLB\inc\ac1003_rcc.h
+.\objects\mgpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
